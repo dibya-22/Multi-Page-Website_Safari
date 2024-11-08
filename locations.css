@@ -1,0 +1,19 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    color: rgb(150, 13, 241);
+    font-size: 40px;
+    padding: 20px;
+}
+
+.cards{
+    display: flex;
+    padding: 20px;
+    padding-top: 0px;
+}

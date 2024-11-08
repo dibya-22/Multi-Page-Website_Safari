@@ -1,0 +1,51 @@
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --navcolor1: rgb(58, 113, 197);
+    --navcolor2: rgb(156, 219, 240);
+    --navtext: white;
+    --navpad: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    background-color: var(--navcolor1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav h1{
+    color: var(--navtext);
+    padding: var(--navpad);
+    font-family: Poppins;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style-type: none;
+    padding: var(--navpad);
+    align-self: center;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: var(--navtext);
+    font-family: sans-serif;
+}
+
+.nav ul li a:hover{
+    color: var(--navcolor2);
+}

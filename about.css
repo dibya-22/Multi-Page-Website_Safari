@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+div h2{
+    padding: 10px;
+}
+
+div p{
+    padding: 0 10px 10px 20px;
+}
+
+div span{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.contact ul{
+    padding: 5px 10px 5px 30px;
+}
+
+
+.contact ul li h4{
+    display: inline;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    background-color: rgb(58, 113, 197);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
